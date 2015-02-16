@@ -82,7 +82,7 @@ Give it a try! Click the button below to fork into IBM DevOps Services and deplo
 4. Start the application
   `python server.py`
 5. Go to
-  `http://localhost:8080`
+  `http://localhost:3000`
 
 
 ## Troubleshooting
