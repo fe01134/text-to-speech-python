@@ -1,3 +1,7 @@
+declared-services:
+- text-to-speech-service:
+    type: text_to_speech
+    plan: free
 applications:
 - name: text-to-speech-python
   command: python server.py
@@ -5,7 +9,3 @@ applications:
   memory: 256M
   services:
   - text-to-speech-service
-  declared-services:
-    text-to-speech-service:
-      label: text_to_speech
-      plan: free
