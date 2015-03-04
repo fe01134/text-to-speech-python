@@ -1,5 +1,5 @@
 declared-services:
-- text-to-speech-service:
+  text-to-speech-service:
     type: text_to_speech
     plan: free
 applications:
